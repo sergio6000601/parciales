@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+		function traslacion()
+		{
+			origen = starr2num(byId("p1")),",";
+			origen2 = starr2num(byId("p2")),",";
+		
+			trasladado = strarr2num(byId)("vt")),",";
+			trasladado2 = strarr2num(byId)("vt2")),",";
+		
+			fin = sum(origen,trasladado);
+			fin2 = sum(origen2,trasladado);  
+		}
+		function byId(sid)
+		{
+			return document.getElementById(sid).value
+		}
+		function starr2num(strarr, lim)
+		{
+			arr = arr.split(lim)
+			ann = []
+			ann = forEach((element)=>
+			{ann.push(Number(element))});
+		}
+</head>
+<body>
+<h1>Transformaciones conjuntas</h1>
+<p>Vector para la transformacion => <input id="p1" size=2/> <input id="p2" size = 2/></p>
+<p>Transformacion inicial <input id="vt" size=1/> <input id="vt2" size=1/></p>
+<p>Trasnformacion final <input id="vf" size=8/></p>
+<p>Vector resultado (posterior a las transformaciones)    <input id="vert_ini" size=50/></p>
+<p><button>size = 12 id ="Procesar" onclick = "traslacion()">Procesar</button></p>
+</body>
+</html>
