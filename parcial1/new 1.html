@@ -7,7 +7,7 @@
 <p>Trasnformacion final <input id="vf" size=15/></p>
 <p>Vector resultado (posterior a las transformaciones)</p>
 <p><button size = 12 id ="vector_fin" onclick = "traslacion()" >Procesar</button></p>
-</body>
+</body> 
 <head>
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,16 +15,14 @@
 	<script>
 		function traslacion()
 		{
-			origen0 = [0,0,0];
 			origen1 = starr2num(byId("p1")),",";
 			origen2 = starr2num(byId("p2")),",";
 		
 			trasladado = strarr2num(byId)("vt")),",";
 			
-			fin0 = sum(origen0, trasladado);
 			fin = sum(origen1,trasladado);
 			fin2 = sum(origen2,trasladado);  
-			alert ( fin);
+			alert (finn = (fin +fin2))
 		}
 		function byId(sid)
 		{
@@ -45,15 +43,6 @@
                 return num + array2[idx];
             });
         }
-		function vector_fin(fin0,fin1,fin2)
-		{
-			Fin[0] = fin0[0] + fin1[0] + fin2[0]
-			Fin[1] = fin0[1] + fin1[1] + fin2[2]
-			Fin[2] = fin0[2] + fin1[2] + fin2[2]
-			fin = fin[0] + fin[1] +fin[2]
-			alert(fin);
-		}
-		document.getElementById("Procesar").innerHTML = "la posicion final es: " + Fin + "<br>";
-		
+	</script>
 </head>
 </html>
